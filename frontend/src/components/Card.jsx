@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 
 const Card = ({ title, text, comp, link }) => {
   return (
-    <div className="card bg-base-100 shadow-xl max-w-96 h-full flex flex-col">
+    <div className="card bg-white shadow-xl max-w-96 h-full flex flex-col">
       <figure>
         <Lottie animationData={comp} className="w-full h-full object-cover" />
       </figure>
